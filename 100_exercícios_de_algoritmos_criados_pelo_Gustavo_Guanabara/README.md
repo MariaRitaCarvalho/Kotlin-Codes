@@ -1,6 +1,8 @@
-
+<div align="center">
+ 
 # 100 exercícios de algoritmos criados pelo professor Gustavo Guanabara
-
+ 
+</div>
 
 
 ### PASSO 01 -SEQUÊNCIAS BÁSICAS

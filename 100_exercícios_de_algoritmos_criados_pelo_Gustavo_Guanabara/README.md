@@ -284,9 +284,10 @@ PASSO 04–REPETIÇÕES ENQUANTO
 
  44. Crie um algoritmo que leia o valor inicial da contagem, o valor final e o incremento, mostrando em seguida todos os valores no intervalo: 
  
- Ex: Digite o primeiro 
- Valor: 3 Digite o último 
- Valor: 10 Digite o incremento: 2 
+ Ex: </br>
+ Digite o primeiro Valor: 3 </br>
+ Digite o último Valor: 10 </br>
+ Digite o incremento: 2 </br>
  Contagem: 3 5 7 9 Acabou!
  
 ---
@@ -329,3 +330,154 @@ PASSO 04–REPETIÇÕES ENQUANTO
  b) Quantas pessoas tem mais de 18 anos </br>
  c) Quantas pessoas tem menos de 5 anos </br>
  d) Qual foi a maior idade lida
+
+---
+
+ 53. Faça um programa que leia a idade e o sexo de 5 pessoas, mostrando no final: 
+
+ a) Quantos homens foram cadastrados </br>
+ b) Quantas mulheres foram cadastradas </br>
+ c) A média de idade do grupo </br>
+ d) A média de idade dos homens </br>
+ e) Quantas mulheres tem mais de 20 anos
+
+---
+
+ 54. Desenvolva um aplicativo que leia o peso e a altura de 7 pessoas, mostrando no final: 
+ 
+ a) Qual foi a média de altura do grupo </br>
+ b) Quantas pessoas pesam mais de 90Kg </br>
+ c) Quantas pessoas que pesam menos de 50Kg tem menos de 1.60m </br>
+ d) Quantas pessoas que medem mais de 1.90m pesam mais de 100Kg.
+ 
+---
+
+ 55. [DESAFIO] Vamos melhorar o jogo que fizemos no exercício 32. A partir de agora, o computador vai sortear um número entre 1 e 10 e o jogador vai ter 4 tentativas para tentar acertar.
+ 
+---
+ 
+ PASSO 05–ENQUANTO COM FLAG
+ 
+ 56. Crie um programa que leia vários números pelo teclado e mostre no final o somatório entre eles. 
+ 
+ Obs: O programa será interrompido quando o número 1111 for digitado
+ 
+---
+ 
+ 57. Desenvolva um aplicativo que leia o salário e o sexo de vários funcionários. No final, mostre o total de salários pagos aos homens e o total pago às mulheres. O programa vai perguntar ao usuário se ele quer continuar ou não sempre que ler os dados de um funcionário.
+ 
+---
+ 
+ 58. Faça um algoritmo que leia a idade de vários alunos de uma turma. O programa vai parar quando for digitada a idade 999. No final, mostre quantos alunos existem na turma e qual é a média de idade do grupo.
+ 
+---
+ 
+ 59. Crie um programa que leia o sexo e a idade de várias pessoas. O programa vai perguntar se o usuário quer continuar ou não a cada pessoa. No final, mostre: 
+ 
+ a) qual é a maior idade lida </br>
+ b) quantos homens foram cadastrados </br>
+ c) qual é a idade da mulher mais jovem </br>
+ d) qual é a média de idade entre os homens
+ 
+---
+ 
+ 60. Desenvolva um algoritmo que leia o nome, a idade e o sexo de várias pessoas. O programa vai perguntar se o usuário quer ou não continuar. No final, mostre: 
+ 
+ a) O nome da pessoa mais velha </br>
+ b) O nome da mulher mais jovem </br>
+ c) A média de idade do grupo </br>
+ d) Quantos homens tem mais de 30 anos </br>
+ e) Quantas mulheres tem menos de 18 anos
+ 
+---
+ 
+ PASSO 06–REPETIÇÃO COM FAÇA ENQUANTO
+ 
+ 61. Crie um programa que mostre na tela a seguinte contagem, usando a estrutura “faça enquanto” 
+ 
+ - 0 3 6 9 12 15 18 21 24 27 30 Acabou!
+ 
+---
+ 
+ 62. Faça um programa usando a estrutura “faça enquanto” que leia a idade de várias pessoas. A cada laço, você deverá perguntar para o usuário se ele quer ou não continuar a digitar dados. No final, quando o usuário decidir parar, mostre na tela: 
+ 
+ a) Quantas idades foram digitadas </br>
+ b) Qual é a média entre as idades digitadas </br>
+ c) Quantas pessoas tem 21 anos ou mais.
+ 
+---
+ 
+
+ 63. Crie um programa usando a estrutura “faça enquanto” que leia vários números. A cada laço, pergunte se o usuário quer continuar ou não. No final, mostre na tela: 
+ 
+ a) O somatório entre todos os valores </br>
+ b) Qual foi o menor valor digitado </br>
+ c) A média entre todos os valores </br>
+ d) Quantos valores são pares
+ 
+---
+
+ PASSO 07–REPETIÇÃO COM PARA
+ 
+ 64. Desenvolva um programa usando a estrutura “para” que mostre na tela a seguinte contagem: 
+ 
+ - 0 5 10 15 20 25 3035 40Acabou!
+ 
+---
+ 
+ 65. Desenvolva um programa usando a estrutura “para” que mostre na tela a seguinte contagem: 
+ 
+ - 100 90 80 70 60 50 40 30 20 10 0 Acabou!
+ 
+---
+
+ 66. Escreva um programa que leia um número qualquer e mostre a tabuada desse número, usando a estrutura “para”. 
+ 
+ Ex: </br>
+ Digite um valor: 5 </br>
+ 5 x 1 = 5 </br>
+ 5 x 2 = 10 </br>
+ 5 x 3 = 15 ...
+ 
+---
+
+ 67. Faça um programa usando a estrutura “para” que leia um número inteiro positivo e mostre na tela uma contagem de 0 até o valor digitado: 
+ 
+ Ex: </br>
+ Digite um valor: 9 </br>
+ Contagem: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, FIM!
+ 
+---
+
+ 68. Crie um programa que leia sexo e peso de 8 pessoas, usando a estrutura “para”. No final, mostre na tela: 
+ 
+ a) Quantas mulheres foram cadastradas </br>
+ b) Quantos homens pesam mais de 100Kg </br>
+ c) A média de peso entre as mulheres </br>
+ d) O maior peso entre os homens
+ 
+---
+
+ 69. [DESAFIO] Desenvolva um programa que leia o primeiro termo e a razão de uma PA (Progressão Aritmética), mostrando na tela os 10 primeiros elementos da PA e a soma entre todos os valores da sequência.
+ 
+---
+
+ 70. [DESAFIO] Faça um programa que mostre os 10 primeiros elementos da Sequência de Fibonacci: 
+ 
+ - 1 1 2 3 5 8 13 21...
+ 
+ PASSO 08–VETORES
+ 
+ 71. Faça um programa que preencha automaticamente um vetor numérico com 8 posições, conforme abaixo:
+ 
+ 999|999|999|999|999|999|999|999 
+ |--|---|---|---|---|---|---|---|
+
+---
+
+ 72. Crie um programa que preencha automaticamente (usando lógica, não apenas atribuindo diretamente) um vetor numérico com 10 posições, conforme abaixo:
+ 
+ 5|10|15|20|25|30|35|40|45|50
+ |-|-|-|-|-|-|-|-|-|-|
+ 
+ 

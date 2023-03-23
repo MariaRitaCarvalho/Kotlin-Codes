@@ -1,14 +1,13 @@
 <div align="center">
  
-# 100 exercícios de algoritmos criados pelo professor Gustavo Guanabara
- 
+# 100 exercícios de algoritmos
+### professor Gustavo Guanabara
 </div>
 
-
-### PASSO 01 -SEQUÊNCIAS BÁSICAS
+## PASSO 01 - SEQUÊNCIAS BÁSICAS
 
  1. Escreva um programa que mostre na tela a mensagem "Olá, Mundo!"
- 
+
 ---
  
  2. Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas para ela: 
@@ -109,7 +108,7 @@
  16. [DESAFIO] Escreva um programa para calcular a redução do tempo de vida de um fumante. Pergunte a quantidade de cigarros fumados por dias e quantos anos ele já fumou. Considere que um fumante perde 10 min de vida a cada cigarro. Calcule quantos dias de vida um fumante perderá e exiba o total em dias.
 
 
-### PASSO 02 - CONDIÇÕES BÁSICAS
+#### PASSO 02 - CONDIÇÕES BÁSICAS
 
  17. Escreva um programa que pergunte a velocidade de um carro. Caso ultrapasse 80Km/h, exiba uma mensagem dizendo que o usuário foi multado. Nesse caso, exiba o valor da multa, cobrando R$5 por cada Km acima da velocidade permitida.
 
@@ -152,7 +151,7 @@
  25. [DESAFIO] Crie um programa que leia o tamanho de três segmentos de reta. Analiseseus comprimentos e diga se é possível formar um triângulo com essas retas. Matematicamente, para três segmentos formarem um triângulo, o comprimento de cada lado deve ser menor que a soma dos outros dois.
 
 
- PASSO 03 - CONDIÇÕES COMPOSTAS
+ #### PASSO 03 - CONDIÇÕES COMPOSTAS
  
  26. Escreva um algoritmo que leia dois números inteiros e compare-os, mostrando na tela uma das mensagens abaixo: 
  
@@ -250,7 +249,7 @@
    - de 20 até 30 anos de empresa: +13% 
    - mais de 30 anos de empresa: +25%
 
-PASSO 04–REPETIÇÕES ENQUANTO
+#### PASSO 04 - REPETIÇÕES ENQUANTO
 
  38. Escreva um programa que mostre na tela a seguinte contagem: 6 7 8 9 10 11 Acabou!
  
@@ -356,7 +355,7 @@ PASSO 04–REPETIÇÕES ENQUANTO
  
 ---
  
- PASSO 05–ENQUANTO COM FLAG
+ #### PASSO 05 - ENQUANTO COM FLAG
  
  56. Crie um programa que leia vários números pelo teclado e mostre no final o somatório entre eles. 
  
@@ -391,7 +390,7 @@ PASSO 04–REPETIÇÕES ENQUANTO
  
 ---
  
- PASSO 06–REPETIÇÃO COM FAÇA ENQUANTO
+ #### PASSO 06 - REPETIÇÃO COM FAÇA ENQUANTO
  
  61. Crie um programa que mostre na tela a seguinte contagem, usando a estrutura “faça enquanto” 
  
@@ -417,7 +416,7 @@ PASSO 04–REPETIÇÕES ENQUANTO
  
 ---
 
- PASSO 07–REPETIÇÃO COM PARA
+ #### PASSO 07 - REPETIÇÃO COM PARA
  
  64. Desenvolva um programa usando a estrutura “para” que mostre na tela a seguinte contagem: 
  
@@ -465,19 +464,203 @@ PASSO 04–REPETIÇÕES ENQUANTO
  70. [DESAFIO] Faça um programa que mostre os 10 primeiros elementos da Sequência de Fibonacci: 
  
  - 1 1 2 3 5 8 13 21...
+
+---
  
- PASSO 08–VETORES
+ #### PASSO 08 - VETORES
  
- 71. Faça um programa que preencha automaticamente um vetor numérico com 8 posições, conforme abaixo:
+ 71. Faça um programa que preencha automaticamente um vetor numérico com 8 posições (0 - 7), conforme abaixo:
  
  999|999|999|999|999|999|999|999 
- |--|---|---|---|---|---|---|---|
+ |-|-|-|-|-|-|-|-|
 
 ---
 
- 72. Crie um programa que preencha automaticamente (usando lógica, não apenas atribuindo diretamente) um vetor numérico com 10 posições, conforme abaixo:
+ 72. Crie um programa que preencha automaticamente (usando lógica, não apenas atribuindo diretamente) um vetor numérico com 10 posições (0 - 9), conforme abaixo:
  
  5|10|15|20|25|30|35|40|45|50
  |-|-|-|-|-|-|-|-|-|-|
  
+---
  
+ 73. Crie um programa que preencha automaticamente (usando lógica, não apenas atribuindo diretamente) um vetor numérico com 10 posições (0 - 9), conforme abaixo:
+ 
+ 9|8|7|6|5|4|3|2|1|0
+ |-|-|-|-|-|-|-|-|-|-|
+ 
+---
+
+ 74. Crie um programa que preencha automaticamente (usando lógica, não apenas atribuindo diretamente) um vetor numérico com 10 posições (0 - 9), conforme abaixo:
+ 
+ 5|3|5|3|5|3|5|3|5|3|
+ |-|-|-|-|-|-|-|-|-|-|
+ 
+---
+
+ 75. Crie um programa que preencha automaticamente (usando lógica, não apenas atribuindo diretamente) um vetor numérico com 16 posições (0 - 15) com os primeiros elementos da sequência de Fibonacci:
+
+ 1|1|2|3|5|8|13|21|34|55|89|144|233|377|610|987
+ |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+
+---
+
+ 76. Crie um programa que preencha automaticamente um vetor numérico com 7 números geradosaleatoriamente pelo computador e depois mostre os valores gerados na tela.
+
+---
+
+ 77. Faça um programa que leia 7 nomes de pessoas e guarde-os em um vetor. No final, mostre uma listagem com todos os nomes informados, na ordem inversa daquela em que eles foram informados.
+
+---
+
+ 78. Escreva um programa que leia 15 números e guarde-os em um vetor. No final, mostre o vetor inteiro na tela e em seguida mostre em que posições foram digitados valores que são múltiplos de 10.
+
+---
+
+ 79. Desenvolva um programa que leia 10 números inteiros e guarde-os em um vetor. No final, mostre quais são os números pares que foram digitados e em que posições eles estão armazenados.
+
+---
+
+ 80. Faça um algoritmo que preencha um vetor de 30 posições com números entre 1 e 15 sorteados pelo computador. Depois disso, peça para o usuário digitar um número (chave) e seu programa deve mostrar em que posições essa chave foi encontrada. Mostre também quantas vezes a chave foi sorteada.
+ 
+---
+ 
+ 81. Crie um programa que leia a idade de 8 pessoas e guarde-asem um vetor. No final, mostre:
+ 
+ a) Qual é a média de idade das pessoas cadastradas </br>
+ b) Em quais posições temos pessoas com mais de 25 anos </br>
+ c) Qual foi a maior idade digitada (podem haver repetições) </br>
+ d) Em que posições digitamos a maior idade
+
+---
+
+ 82) Faça um algoritmo que leia a nota de 10alunosde uma turmae guarde-as em um vetor. No final, mostre: 
+ 
+ a) Qual é a média da turma </br>
+ b) Quantos alunos estão acima da média da turma </br>
+ c) Qual foi a maior nota digitada </br>
+ d) Em que posições a maior nota aparece
+ 
+---
+ 
+ 83. [DESAFIO] Crie uma lógica que preencha um vetor de 20 posições com números aleatórios (entre 0 e 99) gerados pelo computador. Logo em seguida, mostre os números gerados e depois coloque o vetor em ordem crescente, mostrando no final os valores ordenados.
+ 
+---
+ 
+ 84. Crie um programa que leia o nome e a idade de 9 pessoas e guarde esses valores em dois vetores, em posições relacionadas. No final, mostre uma listagem contendo apenas os dados das pessoas menores de idade.
+ 
+---
+ 
+ 85. Faça um algoritmo que leia o nome, o sexo e o salário de 5 funcionários e guarde esses dados em três vetores. No final, mostre uma listagem contendo apenas os dados das funcionárias mulheres que ganham mais de R$5 mil.
+
+---
+
+#### PASSO 09 - PROCEDIMENTOS
+
+ 86. Crie um programa que tenha um procedimento Gerador() que, quando chamado, mostre a mensagem "Olá, Mundo!" com algum componente visual (linhas).
+ 
+ Ex: </br>
+ Ao chamar Gerador() aparece: </br>
+ +-------=======-------+ </br>
+    Olá, Mundo!        </br>
+ +-------=======-------+
+ 
+---
+ 
+ 87. Crie um programa que melhore o procedimento Gerador() da questão anterior para que mostre uma mensagem personalizada, passada como parâmetro. 
+ 
+ Ex: </br>
+ Ao chamar Gerador("Aprendendo Portugol") aparece: </br>
+ +-------=======-------+ </br>
+  Aprendendo Portugol </br>
+ +-------=======-------+
+ 
+---
+ 
+ 88. Crie um programa que melhore o procedimento Gerador() da questão anterior para que mostre uma mensagem personalizada, passada como parâmetro, quantas vezes solicitado.
+ 
+ Ex: </br>
+ Ao chamar Gerador("Aprendendo Portugol", 4) aparece: </br>
+ +-------=======-------+ </br>
+ Aprendendo Portugol </br>
+ Aprendendo Portugol </br>
+ Aprendendo Portugol </br>
+ Aprendendo Portugol </br>
+ +-------=======-------+
+ 
+---
+ 
+ 89. Crie um programa que melhore o procedimento Gerador() da questão anterior para que o programador possa escolher uma entre três bordas:
+ 
+ - Borda 1: +-------=======-------+ </br>
+ - Borda 2: xxxxxxxx:::::::xxxxxxxx </br>
+ - Borda 3: <<<<<<<<------->>>>>>>>
+
+ Ex: </br>
+ Uma chamada válida seria Gerador("Portugol Studio", 3, 2) </br>
+ xxxxxxxx:::::::xxxxxxxx </br>
+ Portugol Studio </br>
+ Portugol Studio </br>
+ Portugol Studio </br>
+ xxxxxxxx:::::::xxxxxxxx
+
+---
+
+ 90. Desenvolva um algoritmo que leia dois valores pelo teclado e passe esses valores para um procedimento Somador() que vai calcular e mostrar a soma entre eles.
+ 
+---
+ 
+ 91. Desenvolva um algoritmo que leia dois valores pelo teclado e passe esses valores para um procedimento Maior() que vai verificar qual deles é o maior e mostrá-lo na tela. Caso os dois valores sejam iguais, mostrar uma mensagem informando essa característica.
+ 
+---
+ 
+ 92. Crie uma lógica que leia um número inteiro e passe para um procedimento ParOuImpar() que vai verificar e mostrar na tela se o valor passado como parâmetro é PAR ou ÍMPAR.
+ 
+---
+ 
+ 93. Faça um programa que tenha um procedimento chamado Contador() que recebe três valores como parâmetro: o início, o fim e o incremento de uma contagem. O programa principal deve solicitar a digitação desses valores e passá-los ao procedimento, que vai mostrar a contagem na tela.
+
+ Ex: </br>
+ Para os valores de início (4), fim (20) e incremento(3) teremos Contador(4, 20, 3) vai mostrar na tela4 >> 7 >> 10 >> 13 >>16 >> 19 >> FIM
+ 
+---
+
+ 94. [DESAFIO] Desenvolva um aplicativo que tenha um procedimento chamado Fibonacci() que recebe um único valor inteiro como parâmetro, indicando quantos termos da sequência serão mostrados na tela. O seu procedimento deve receber esse valor e mostrar a quantidade de elementos solicitados. 
+ 
+ Ex: </br>
+ Fibonacci(5) vai gerar 1 >> 1 >> 2 >> 3 >> 5 >> FIM </br>
+ Fibonacci(9) vai gerar 1 >> 1 >> 2 >> 3 >> 5 >> 8 >> 13 >> 21 >> 34 >> FIM
+ 
+ Obs: Use os exercícios 70 e 75 para te ajudar na solução 
+ 
+---
+
+ #### PASSO 10 - FUNÇÕES
+ 
+ 95. Refaça o exercício 90, só que agora em forma de função Somador(), que vai receber dois parâmetros e vai retornar o resultado da soma entre eles para o programa principal.
+ 
+---
+ 
+ 96. Crie um programa que tenha uma função Media(), que vai receber as 2notas de um aluno e retornar a sua média para o programa principal.
+ 
+---
+ 
+ 97. Refaça o exercício 91, só que agora em forma de função Maior(), mas faça uma adaptação que vai receber TRÊS números como parâmetro e vai retornar qual foi o maior entre eles.
+ 
+---
+ 
+ 98. Crie um programa que tenha uma função SuperSomador(), que vai receber dois números como parâmetro e depois vai retornar a soma de todos os valores no intervalo entre os valores recebidos. 
+ 
+ Ex: </br>
+ SuperSomador(1, 6) vai somar 1 + 2 + 3 + 4 + 5 + 6 e vai retornar 21 </br>
+ SuperSomador(15, 19) vai somar 15 + 16 + 17 + 18 + 19 e vai retornar 85
+ 
+---
+
+ 99. Faça um programa que possua uma função chamada Potencia(), que vai receber dois parâmetros numéricos (base e expoente) e vai calcular o resultado da exponenciação. 
+
+ Ex: </br>
+ Potencia(5,2) vai calcular 52= 25 
+ 
+---
+
+ 100. Melhore o exercício 96, criando além da função Media() uma outra função chamada Situacao(), que vai retornar para o programa principal se o aluno está APROVADO, em RECUPERAÇÃO ou REPROVADO. Essa nova função, vai receber como parâmetro o resultado retornado pela função Media().

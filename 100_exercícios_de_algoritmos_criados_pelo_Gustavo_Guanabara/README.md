@@ -3,9 +3,14 @@
 # 100 exercícios de algoritmos criados pelo professor Gustavo Guanabara
 </div>
 
-## PASSO 01 - SEQUÊNCIAS BÁSICAS
+</br>
 
- 1. Escreva um programa que mostre na tela a mensagem "Olá, Mundo!"
+|PASSO 01 - SEQUÊNCIAS BÁSICAS|
+|-|
+
+</br>
+
+ 01. Escreva um programa que mostre na tela a mensagem "Olá, Mundo!"
 
 ---
  
@@ -106,8 +111,12 @@
 
  16. [DESAFIO] Escreva um programa para calcular a redução do tempo de vida de um fumante. Pergunte a quantidade de cigarros fumados por dias e quantos anos ele já fumou. Considere que um fumante perde 10 min de vida a cada cigarro. Calcule quantos dias de vida um fumante perderá e exiba o total em dias.
 
+</br>
 
-#### PASSO 02 - CONDIÇÕES BÁSICAS
+ |PASSO 02 - CONDIÇÕES BÁSICAS|
+ |-|
+
+</br>
 
  17. Escreva um programa que pergunte a velocidade de um carro. Caso ultrapasse 80Km/h, exiba uma mensagem dizendo que o usuário foi multado. Nesse caso, exiba o valor da multa, cobrando R$5 por cada Km acima da velocidade permitida.
 
@@ -149,8 +158,12 @@
 
  25. [DESAFIO] Crie um programa que leia o tamanho de três segmentos de reta. Analiseseus comprimentos e diga se é possível formar um triângulo com essas retas. Matematicamente, para três segmentos formarem um triângulo, o comprimento de cada lado deve ser menor que a soma dos outros dois.
 
+</br>
 
- #### PASSO 03 - CONDIÇÕES COMPOSTAS
+ |PASSO 03 - CONDIÇÕES COMPOSTAS|
+ |-|
+
+</br>
  
  26. Escreva um algoritmo que leia dois números inteiros e compare-os, mostrando na tela uma das mensagens abaixo: 
  
@@ -248,7 +261,12 @@
    - de 20 até 30 anos de empresa: +13% 
    - mais de 30 anos de empresa: +25%
 
-#### PASSO 04 - REPETIÇÕES ENQUANTO
+</br>
+
+|PASSO 04 - REPETIÇÕES ENQUANTO|
+|-|
+
+</br>
 
  38. Escreva um programa que mostre na tela a seguinte contagem: 6 7 8 9 10 11 Acabou!
  
@@ -352,9 +370,13 @@
 
  55. [DESAFIO] Vamos melhorar o jogo que fizemos no exercício 32. A partir de agora, o computador vai sortear um número entre 1 e 10 e o jogador vai ter 4 tentativas para tentar acertar.
  
----
+
+</br>
  
- #### PASSO 05 - ENQUANTO COM FLAG
+ |PASSO 05 - ENQUANTO COM FLAG|
+ |-|
+
+</br>
  
  56. Crie um programa que leia vários números pelo teclado e mostre no final o somatório entre eles. 
  
@@ -387,10 +409,13 @@
  d) Quantos homens tem mais de 30 anos </br>
  e) Quantas mulheres tem menos de 18 anos
  
----
+</br>
  
- #### PASSO 06 - REPETIÇÃO COM FAÇA ENQUANTO
- 
+ |PASSO 06 - REPETIÇÃO COM FAÇA ENQUANTO|
+ |-|
+
+</br>
+
  61. Crie um programa que mostre na tela a seguinte contagem, usando a estrutura “faça enquanto” 
  
  - 0 3 6 9 12 15 18 21 24 27 30 Acabou!
@@ -413,10 +438,13 @@
  c) A média entre todos os valores </br>
  d) Quantos valores são pares
  
----
+</br>
 
- #### PASSO 07 - REPETIÇÃO COM PARA
- 
+ |PASSO 07 - REPETIÇÃO COM PARA|
+ |-|
+
+</br>
+
  64. Desenvolva um programa usando a estrutura “para” que mostre na tela a seguinte contagem: 
  
  - 0 5 10 15 20 25 3035 40Acabou!
@@ -464,10 +492,13 @@
  
  - 1 1 2 3 5 8 13 21...
 
----
+</br>
  
- #### PASSO 08 - VETORES
- 
+ |PASSO 08 - VETORES|
+ |-|
+
+</br>
+
  71. Faça um programa que preencha automaticamente um vetor numérico com 8 posições (0 - 7), conforme abaixo:
  
  999|999|999|999|999|999|999|999 
@@ -551,9 +582,12 @@
  
  85. Faça um algoritmo que leia o nome, o sexo e o salário de 5 funcionários e guarde esses dados em três vetores. No final, mostre uma listagem contendo apenas os dados das funcionárias mulheres que ganham mais de R$5 mil.
 
----
+</br>
 
-#### PASSO 09 - PROCEDIMENTOS
+ |PASSO 09 - PROCEDIMENTOS|
+ |-|
+
+</br>
 
  86. Crie um programa que tenha um procedimento Gerador() que, quando chamado, mostre a mensagem "Olá, Mundo!" com algum componente visual (linhas).
  
@@ -631,9 +665,12 @@
  
  Obs: Use os exercícios 70 e 75 para te ajudar na solução 
  
----
+</br>
 
- #### PASSO 10 - FUNÇÕES
+ |PASSO 10 - FUNÇÕES|
+ |-|
+
+</br>
  
  95. Refaça o exercício 90, só que agora em forma de função Somador(), que vai receber dois parâmetros e vai retornar o resultado da soma entre eles para o programa principal.
  

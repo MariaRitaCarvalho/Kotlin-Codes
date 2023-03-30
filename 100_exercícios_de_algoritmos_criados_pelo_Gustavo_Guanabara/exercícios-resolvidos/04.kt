@@ -20,5 +20,5 @@ fun main() {
         return
     }
     val soma = num1 + num2
-    println("A soma de $num1 e $num2 é $soma")
+    println("A soma entre $num1 e $num2 é ${"%.2f".format(soma)}")
 }

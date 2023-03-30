@@ -17,7 +17,7 @@ fun main() {
 }
 
 /*
-Algoritmo semelhante ao da questão anterior
+Algoritmo semelhante ao da questão anterior.
 
 Aqui está o código mais trabalhado:
 

@@ -31,7 +31,7 @@ fun main() {
     print("Nota 2: ")
     val nota2 = readLine()?.toDoubleOrNull()
     if (nota2 == null) {
-        println("Valor inválido inserido para a primeira nota.")
+        println("Valor inválido inserido para a segunda nota.")
         return
     }
     

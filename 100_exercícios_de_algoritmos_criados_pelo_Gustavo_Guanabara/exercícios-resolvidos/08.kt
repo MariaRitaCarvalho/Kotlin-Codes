@@ -13,9 +13,9 @@ A distância de 185.7m corresponde a:
 
 fun main() {
     print("Digite uma distância em metros: ")
-    val dist = readLine()!!.toDoubleOrNull()
+    val dist = readLine()?.replace(",", ".")?.toDoubleOrNull()
     if (dist == null) {
-        println("distância invalida")
+        println("Entrada inválida. Por favor, insira apenas números inteiros ou separados por ponto ou vírgula.")
         return
     }
     val km = dist / 1000
@@ -25,5 +25,13 @@ fun main() {
     val cm = dist * 100
     val mm = dist * 1000
 
-    println("A distância $dist m corresponde a:\n $km km\n $hm hm\n $dam dam\n $dm dm\n $cm cm\n $mm mm")
+    println("""
+    A distância $dist m corresponde a:
+    ${"%.2f".format(km)} km
+    ${"%.2f".format(hm)} hm
+    ${"%.2f".format(dam)} dam
+    ${"%.2f".format(dm)} dm
+    ${"%.2f".format(cm)} cm
+    ${"%.2f".format(mm)} mm
+    """.trimIndent())
 }
